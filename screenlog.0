@@ -1,0 +1,14 @@
+[?2004h(base) [01;32mlarsm@dhlab3[00m:[01;34m~/projects/norart[00m$ poetry run python norart/oaiharvester.py 
+[?2004l[?2004h(base) [01;32mlarsm@dhlab3[00m:[01;34m~/projects/norart[00m$ poetry run python norart/oaiharvester.py 
+[?2004lTraceback (most recent call last):
+  File "/home/larsm/projects/norart/norart/oaiharvester.py", line 53, in <module>
+    harvester.list_records('marc21', 
+  File "/home/larsm/projects/norart/norart/oaiharvester.py", line 33, in list_records
+    root.write(file)
+AttributeError: 'xml.etree.ElementTree.Element' object has no attribute 'write'
+[?2004h(base) [01;32mlarsm@dhlab3[00m:[01;34m~/projects/norart[00m$ poetry run python norart/oaiharvester.py 
+[?2004lElapsed wall clock time: 2295.70 seconds
+Elapsed CPU time: 928.96 seconds
+Done!
+[?2004h(base) [01;32mlarsm@dhlab3[00m:[01;34m~/projects/norart[00m$ [K(base) [01;32mlarsm@dhlab3[00m:[01;34m~/projects/norart[00m$ [?2004h(base) [01;32mlarsm@dhlab3[00m:[01;34m~/projects/norart[00m$ [?2004l
+exit
